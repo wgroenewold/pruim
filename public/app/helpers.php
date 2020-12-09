@@ -4,15 +4,15 @@
  * Class helpers. Common functionality abstracted.
  */
 
-class pluim_helpers {
+class pruim_helpers {
 	private $token;
 	private $slack;
 	private $api;
 
 	public function __construct() {
 		$this->token = $_ENV['SLACK_TOKEN'];
-		$this->slack = new pluim_slack();
-		$this->api   = new pluim_api();
+		$this->slack = new pruim_slack();
+		$this->api   = new pruim_api();
 	}
 
 	//"Validator" for Slack

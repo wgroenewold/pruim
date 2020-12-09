@@ -1,11 +1,10 @@
 {
-    "name": "wouter/pluim",
-    "description": "Slackbot to send compliments in style",
+    "name": "wouter/pruim",
+    "description": "Slackbot to send NSFW compliments",
     "type": "project",
     "require": {
         "vlucas/phpdotenv": "^5.2",
         "guzzlehttp/guzzle": "^7.2",
-        "ext-json": "^1.7"
     },
     "license": "GPLv3",
     "authors": [

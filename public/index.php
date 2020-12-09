@@ -1,11 +1,11 @@
 <?php
 
-require_once( 'pluim.class.php' );
-$instance = pluim::instance();
+require_once( 'pruim.class.php' );
+$instance = pruim::instance();
 
 $receive = $_POST;
 
-if($receive && array_key_exists('command', $receive) && $receive['command'] === '/pluim') {
+if($receive && array_key_exists('command', $receive) && $receive['command'] === '/pruim') {
 	$block = file_get_contents( 'dialog.json' );
 	$msg   = $instance->helpers->format_message( $block, true );
 

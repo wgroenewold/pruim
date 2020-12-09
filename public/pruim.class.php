@@ -11,12 +11,12 @@ require_once('app/slack.php');
 
 setlocale(LC_ALL, 'nl_NL');
 
-pluim::instance();
+pruim::instance();
 
 /**
- * Class pluim
+ * Class pruim
  */
-class pluim
+class pruim
 {
 	/**
 	 * Singleton holder
@@ -26,7 +26,7 @@ class pluim
 	/**
 	 * Get the singleton
 	 *
-	 * @return pluim
+	 * @return pruim
 	 */
 	public static function instance()
 	{
@@ -39,8 +39,8 @@ class pluim
 
 	private function __construct()
 	{
-		$this->api = new pluim_api();
-		$this->helpers = new pluim_helpers();
-		$this->slack = new pluim_slack();
+		$this->api = new pruim_api();
+		$this->helpers = new pruim_helpers();
+		$this->slack = new pruim_slack();
 	}
 }

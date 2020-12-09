@@ -7,7 +7,7 @@ use GuzzleHttp\Exception\TransferException;
  * Class API. For communication with different APIs.
  */
 
-class pluim_api{
+class pruim_api{
 	private $token;
 	private $client;
 

@@ -4,11 +4,11 @@
  * Class slack. For communication with Slack
  */
 
-class pluim_slack{
+class pruim_slack{
 	private $api;
 
 	public function __construct(){
-		$this->api = new pluim_api();
+		$this->api = new pruim_api();
 	}
 
 	public function conversations_list($args){
